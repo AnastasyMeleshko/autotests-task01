@@ -4,7 +4,7 @@ import { findMax, findMin, removeDuplicates } from "../utils/arrayUtils.js";
 describe("arrayUtils", () => {
 
   // -----------------------------
-  // Тесты для findMax
+  // Tests for findMax
   // -----------------------------
   describe("findMax", () => {
     it("should return the maximum value from a normal array", () => {
@@ -29,7 +29,7 @@ describe("arrayUtils", () => {
   });
 
   // -----------------------------
-  // Тесты для findMin
+  // Tests for findMin
   // -----------------------------
   describe("findMin", () => {
     it("should return the minimum value from a normal array", () => {
@@ -54,7 +54,7 @@ describe("arrayUtils", () => {
   });
 
   // -----------------------------
-  // Тесты для removeDuplicates
+  // Tests for removeDuplicates
   // -----------------------------
   describe("removeDuplicates", () => {
     it("should remove duplicate numbers", () => {

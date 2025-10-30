@@ -4,7 +4,7 @@ import { capitalize, reverseString, isPalindrome } from "../utils/stringUtils.js
 describe("stringUtils", () => {
 
   // -----------------------------
-  // Тесты для capitalize
+  // Tests for capitalize
   // -----------------------------
   describe("capitalize", () => {
     it("should capitalize the first letter of a lowercase word", () => {
@@ -33,7 +33,7 @@ describe("stringUtils", () => {
   });
 
   // -----------------------------
-  // Тесты для reverseString
+  // Tests for reverseString
   // -----------------------------
   describe("reverseString", () => {
     it("should reverse a normal string", () => {
@@ -61,7 +61,7 @@ describe("stringUtils", () => {
   });
 
   // -----------------------------
-  // Тесты для isPalindrome
+  // Tests for isPalindrome
   // -----------------------------
   describe("isPalindrome", () => {
     it("should return true for a palindrome word", () => {

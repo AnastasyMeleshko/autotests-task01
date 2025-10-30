@@ -3,7 +3,7 @@ import checkStudentKnowledge from "../utils/studentKnowledgeCheckerUtil.js";
 
 describe("studentKnowledgeCheckerUtil", () => {
   // -----------------------------
-  // Проверка правильных значений
+  // Check of correct values
   // -----------------------------
   describe("Correct answers", () => {
     it("should return true when all answers match exactly", () => {
@@ -20,7 +20,7 @@ describe("studentKnowledgeCheckerUtil", () => {
   });
 
   // -----------------------------
-  // Проверка edge cases
+  // Check edge cases
   // -----------------------------
   describe("Edge cases", () => {
     it("should return false if student has fewer answers than expected", () => {
@@ -49,17 +49,17 @@ describe("studentKnowledgeCheckerUtil", () => {
   });
 
 
-  // Проверка некорректных аргументов (Invalid input)
+  // Check not valid input values(Invalid input)
 
   describe("Invalid input", () => {
     it("should return false if studentAnswers is not a valid object", () => {
-      // передаем объекты, которые обработает функция
+
       expect(checkStudentKnowledge({}, { q1: "A" })).to.be.false;
       expect(checkStudentKnowledge({ qX: "B" }, { q1: "A" })).to.be.false;
     });
 
     it("should return false if correctAnswers is not a valid object", () => {
-      // передаем объекты, которые обработает функция
+
       expect(checkStudentKnowledge({ q1: "A" }, {})).to.be.false;
       expect(checkStudentKnowledge({ q1: "A" }, { qX: "B" })).to.be.false;
     });
