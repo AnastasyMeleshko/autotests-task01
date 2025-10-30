@@ -1,0 +1,12 @@
+# Node
+node_modules/
+npm-debug.log
+
+# Coverage reports
+coverage/
+mochawesome-report/
+
+# IDE files
+.idea/
+.vscode/
+.DS_Store
