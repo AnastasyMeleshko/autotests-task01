@@ -4,7 +4,7 @@ import { add, subtract, multiply, divide } from "../utils/mathUtils.js";
 describe("mathUtils", () => {
 
   // -----------------------------
-  // Тесты для add
+  // Tests for ADD
   // -----------------------------
   describe("add", () => {
     it("should return correct sum of two positive numbers", () => {
@@ -22,7 +22,7 @@ describe("mathUtils", () => {
   });
 
   // -----------------------------
-  // Тесты для subtract
+  // Tests for subtract
   // -----------------------------
   describe("subtract", () => {
     it("should return correct difference of two positive numbers", () => {
@@ -40,7 +40,7 @@ describe("mathUtils", () => {
   });
 
   // -----------------------------
-  // Тесты для multiply
+  // Tests for multiply
   // -----------------------------
   describe("multiply", () => {
     it("should return correct product of two positive numbers", () => {
@@ -59,7 +59,7 @@ describe("mathUtils", () => {
   });
 
   // -----------------------------
-  // Тесты для divide
+  // Tests for divide
   // -----------------------------
   describe("divide", () => {
     it("should return correct division of two positive numbers", () => {

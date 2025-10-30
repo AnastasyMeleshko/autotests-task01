@@ -10,6 +10,6 @@ export default [
       semi: ["error", "always"],
       quotes: ["error", "double"]
     },
-    ignores: ["node_modules/**"] // <--- игнорируем node_modules
+    ignores: ["node_modules/**"] // <--- ignore node_modules
   }
 ];
